@@ -529,14 +529,15 @@ footer div{
             font-size: 50px;           
         }
         
-        .nuestro-producto h2{
-            margin: auto;           
-            font-size: 50px;
-        }
-        
         .nuestro-producto p{
             padding: 20px;
             font-size: 20px;
+        }
+
+        .ventajas{
+           justify-content: center;
+           align-items: center;
+            
         }
     }
 
