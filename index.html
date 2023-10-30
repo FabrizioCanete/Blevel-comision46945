@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/favico/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/favico/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Mi Proyecto</title>
+
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg menu ">
+      <div class="container-fluid fs-4">
+        <a class="navbar-brand logo" href="./index.html"><img src="./img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/empresa.html">Empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/productos.html">Productos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/amoblamientos.html">Amoblamiento</a>
+            </li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <!-- ================= HERO ============== -->
+  <main>
+    <section class="hero">
+      <h1>Aberturas de Aluminio</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis,
+        dolor!
+      </p>
+    </section>
+    <!-- ================= CONTENIDO PRINCIPAL ============== -->
+
+    <section>
+      <h2 class="titulo-galeria">Nuestras Obras</h2>
+      <div class="contenedor">
+        <div class="grid-container">
+          <div>
+            <img src="./img/obra.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+          <div>
+            <img src="./img/obra1.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+          <div>
+            <img src="./img/obra2.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+          <div>
+            <img src="./img/obra3.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+          <div>
+            <img src="./img/obra4.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+          <div>
+            <img src="./img/obra5.jpg" alt="">
+            <h3>OBRA</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="boton">
+        <button>Ver Mas</button>
+      </div>
+
+
+      <!-- ================= CONTENIDO ============== -->
+
+    </section>
+    <h2>Testimonios de Nuestros Clientes</h2>
+    <section class="testimonial-container">
+      <div class="testimonial-card">
+        <img src="./img/cliente1.jpeg" alt="" class="client-img">
+        <p>"El equipo es muy profesional. ¡Altamente recomendado!"</p>
+        <p><strong>Robert Williams</strong></p>
+      </div>
+      <div class="testimonial-card">
+        <img src="./img/cliente2.jpeg" alt="" class="client-img">
+        <p>"Excelente servicio. Muy contento con la calidad del producto."</p>
+        <p><strong>William Jones</strong></p>
+      </div>
+      <div class="testimonial-card">
+        <img src="./img/cliente3.jpeg" alt="" class="client-img">
+        <p>"Siempre entregan a tiempo y responden rápidamente a nuestras necesidades."</p>
+        <p><strong>Nancy Anderson</strong></p>
+      </div>
+    </section>
+
+
+    <!-- ================= FORMULARIO ============== -->
+
+
+    <section class="titulo-formulario">
+      <h2>¿Quieres Contactarnos?</h2>
+      <p>Dejanos tus datos y tus dudas para poder contactarnos directamente con usted</p>
+      <div class="formulario">
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required><br><br>
+
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required><br><br>
+
+          <label for="telefono">Número de Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="texto">Comentarios:</label><br>
+          <textarea id="texto" name="texto" rows="4" cols="50"></textarea><br><br>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ==================FOOTER================= -->
+  <footer>
+    <div>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt=""></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt=""></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png" alt=""></a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
