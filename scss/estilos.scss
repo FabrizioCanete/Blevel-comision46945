@@ -1,0 +1,13 @@
+@import'../base/generales';
+@import'../scss/components/header';
+@import'../scss/components/main';
+@import'../scss/components/footer';
+@import'../scss/base/mediaquery';
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    color: chocolate;
+    margin: 15px 25px;
+    padding: 10px;
+}

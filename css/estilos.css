@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-x: hidden; }
+
+.logo {
+  margin: 5px;
+  margin-top: 0%;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: chocolate;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  header li {
+    display: inline-block;
+    margin: 20px;
+    padding: 5px; }
+    header li a {
+      text-decoration: none;
+      color: chocolate; }
+
+.form-control {
+  width: auto;
+  padding: 0; }
+
+.menu {
+  width: 100%;
+  background-color: white; }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: chocolate;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero h1 {
+    color: #f07f0e;
+    font-size: 100px;
+    margin: 0; }
+  .hero p {
+    color: black;
+    font-size: 18px; }
+
+#galeria .titulo-galeria {
+  text-align: center;
+  margin: 20px;
+  color: chocolate; }
+
+#galeria .contenedor {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px; }
+  #galeria .contenedor .grid-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    position: relative;
+    overflow-y: hidden; }
+    #galeria .contenedor .grid-container img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
+      #galeria .contenedor .grid-container img .card h3 {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(210, 105, 30, 0.438);
+        width: 100%;
+        overflow-y: hidden; }
+
+.btn {
+  display: block;
+  font-size: 15px;
+  padding: 12px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px; }
+  .btn button {
+    background-color: chocolate;
+    text-align: center;
+    color: white; }
+
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; }
+
+.testimonial-card {
+  background-color: #f0d90a;
+  color: #fa6b05;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+  align-self: flex-start flex-end; }
+  .testimonial-card .client-img {
+    max-width: 100px;
+    border-radius: 50%; }
+
+.titulo-formulario {
+  text-align: center;
+  background-color: rgba(173, 169, 169, 0.603);
+  margin: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 15px; }
+  .titulo-formulario h2 {
+    margin: 20px;
+    padding: 10px; }
+    .titulo-formulario h2 p {
+      margin: 10px;
+      padding: 10px; }
+
+.formulario {
+  max-width: 400px;
+  margin: 0 auto; }
+  .formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; }
+    .formulario label textarea {
+      resize: vertical; }
+
+.formulario input[type="submit"] {
+  background-color: chocolate;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.formulario input[type="submit"]:hover {
+  background-color: chocolate; }
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0e0a07;
+  text-align: center;
+  width: 100%;
+  height: 480px;
+  background-image: url("../img/empresa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.contenidoEmpresa {
+  background-color: #918f8f;
+  margin: 50px;
+  padding: 35px;
+  text-align: center; }
+  .contenidoEmpresa h3 {
+    margin: 15px;
+    color: chocolate;
+    font-size: 25px; }
+
+.foto-aberturas {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid black;
+  margin: 20px; }
+
+.datos {
+  background-color: #918f8f;
+  margin: 50px;
+  padding: 35px;
+  text-align: center;
+  font-size: larger; }
+  .datos h3 {
+    margin: 15px;
+    color: chocolate; }
+
+.hero-producto {
+  background-image: url(../img/producto-casa.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hero-producto h2 {
+    color: chocolate;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic; }
+
+.nuestro-producto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: orange;
+  color: white; }
+  .nuestro-producto h2 {
+    margin: 15px;
+    color: black;
+    font-size: 100px; }
+    .nuestro-producto h2 p {
+      padding: 20px;
+      font-size: 20px; }
+
+.ventajas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 20px; }
+  .ventajas .div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden; }
+
+.section-ventajas-titulo {
+  text-align: center;
+  margin: 15px; }
+
+.lineas h2 {
+  margin: 20px; }
+
+.modena {
+  margin: 100px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column; }
+
+.modena-container {
+  display: flex;
+  flex-direction: column; }
+
+.img-container {
+  display: flex;
+  justify-content: center; }
+  .img-container img {
+    height: 300px;
+    width: 300px; }
+
+.a30 {
+  margin: 100px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column; }
+  .a30 img {
+    height: 300px;
+    width: 300px; }
+
+.presentacion-mueble {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  background-color: #969494; }
+  .presentacion-mueble h2 {
+    color: chocolate;
+    font-size: 100px; }
+
+.info-parrafo p {
+  padding: 15px;
+  color: white; }
+
+.lista-detalles {
+  background-color: gold;
+  margin: 100px;
+  margin-top: 20px;
+  padding: 20px 0; }
+  .lista-detalles h2 {
+    color: chocolate;
+    font-size: 50px; }
+
+.detalles {
+  display: flex;
+  justify-content: center; }
+
+footer {
+  text-align: center;
+  margin: 15px auto;
+  padding: 0;
+  height: 100px; }
+  footer div {
+    display: inline-block;
+    margin-top: 4%; }
+
+@media screen and (max-width: 1076px) {
+  .navbar-nav {
+    margin: 5px;
+    padding: 5px; } }
+
+@media screen and (max-width: 990px) {
+  .grid-container {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px; } }
+
+@media screen and (max-width: 800px) {
+  .titulo-formulario {
+    width: 100%;
+    margin: 0; } }
+
+@media screen and (max-width: 770px) {
+  .img-container {
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 570px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px; } }
+
+@media screen and (max-width: 570px) {
+  .testimonial-container {
+    flex-direction: column; } }
+
+@media screen and (max-width: 490px) {
+  .nuestro-producto {
+    height: 100%;
+    margin: auto;
+    padding: 20px;
+    font-size: auto; } }
+
+@media screen and (max-width: 470px) {
+  .hero {
+    height: 500px;
+    margin: auto; }
+  .heroh1 {
+    font-size: 50px;
+    margin: 20px; }
+  .hero-producto {
+    height: 500px;
+    margin: auto; }
+    .hero-producto h2 {
+      margin: auto;
+      font-size: 50px; }
+      .hero-producto h2 p {
+        padding: 20px;
+        font-size: 20px; }
+  .ventajas {
+    justify-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 350px) {
+  .titulo-formulario {
+    padding: auto; } }
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: chocolate;
+  margin: 15px 25px;
+  padding: 10px; }

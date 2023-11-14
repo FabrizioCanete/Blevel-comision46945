@@ -1,130 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow-x: hidden;
-}
-/* ================HEADER============== */
-
-
-.logo{
-    margin: 5px;
-    margin-top: 0%;
-    padding: 20px;
-    display: block;  
-    text-align: center;
-    text-decoration: none;   
-    color: chocolate;
-    font-size: xx-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic
-    
-    
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav ul li{
-display: inline-block;
-margin: 20px;
-
-}
-
-
-
-nav ul li a {
-    text-decoration: none;
-    color: chocolate;
-    font-size: large;
-}
-
-.menu{
-    width: 100%;
-    background-color:white;
-
-}
-
-
-
-/* ================HERO============== */
-
-.hero{
-    color:chocolate;
-    text-align:center;    
-    width: 100%;
-    height: 550px;
-    background-image: url("../img/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero h1 {
-    color: rgb(240, 127, 14); 
-    font-size: 100px;
-    margin: 0;
-  }
-
-  .hero p {
-    color: black;
-    font-size: 18px;
-  }  
-
-
-/* ===============GALERIA DE IMAGENES==================== */
-.titulo-galeria{
-    text-align: center;
-    margin: 20px;
-    color: chocolate;
-}
-
-
-
-.grid-container div{
-    position: relative;
-}
-.grid-container div h3{
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(210, 105, 30, 0.438);
-    width: 100%;
-}
-
-.grid-container{
-    width: 80%;
-    margin: 0 auto;    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-   
-
-}
-
-.grid-container div img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-
-
-.boton{
-    text-align: center;
-    margin: 10px;
-}
-
 
 /* ==================TESTIMONIOS CARDS=================  */
 .testimonial-container{
@@ -151,8 +24,7 @@ nav ul li a {
     margin: 10px;
     text-align: center;
     vertical-align: top;
-    align-self: flex-start flex-end;
-      
+    align-self: flex-start flex-end;      
 }
 
 .testimonial-card p strong{
@@ -241,7 +113,6 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .hero-producto h2{
@@ -273,8 +144,7 @@ nav ul li a {
 .ventajas{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .div{
@@ -352,13 +222,7 @@ h2{
     background-image: url("../img/empresa.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    
-}
-
-.presentacion{
-    display: flex;
-    
+    background-position: center;    
 }
 
 .contenidoEmpresa{
@@ -462,6 +326,12 @@ footer div{
 
 
 /* ===============MEDIA QUERIS================== */
+    @media screen and (max-width:1076px){
+        .navbar-nav{
+            margin:5px;
+            padding: 5px;
+        }
+    }
 
     @media screen and (max-width:990px){
     .grid-container{
@@ -471,8 +341,7 @@ footer div{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 15px;
-        }
-        
+        }        
     }
 
     @media screen and (max-width:800px){
@@ -486,13 +355,7 @@ footer div{
         .img-container{
             flex-wrap: wrap;
         }
-
-
-
-
-    }
-
-   
+    }   
 
     @media screen and (max-width:570px){
         .grid-container{       

@@ -1,0 +1,308 @@
+//GALERIA DE IMAGENES
+#galeria{
+    .titulo-galeria{
+        text-align: center;
+        margin: 20px;
+        color: chocolate;
+    }
+    .contenedor{
+        margin: auto;
+        max-width: 1300px;
+        padding: 0 20px;
+        .grid-container{
+            width: 80%;
+            margin: 0 auto;    
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            position: relative; 
+            overflow-y: hidden;           
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            .card h3{
+                position: absolute;
+                bottom: 0;
+                background-color: rgba(210, 105, 30, 0.438);
+                width: 100%; 
+                overflow-y: hidden;
+                
+            }    
+            } 
+        }
+    }
+}
+
+.btn{
+    display: block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    font-weight: bold;    
+    letter-spacing: 1px;
+    border-radius: 4px;
+    
+    button{
+        background-color: chocolate;
+        text-align: center;
+        color: white
+    }   
+}
+
+//TESTIMONIO DE CLIENTESS
+
+.testimonial-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;    
+}
+
+.testimonial-card {
+    background-color:rgb(240, 217, 10) ;
+    color: rgb(250, 107, 5);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+    align-self: flex-start flex-end; 
+    .client-img{
+        max-width: 100px;
+        border-radius: 50%; 
+    }     
+}
+
+
+//FORMULARIO
+
+.titulo-formulario{
+    text-align: center;
+    background-color: rgba(173, 169, 169, 0.603);
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    h2{
+        margin: 20px;
+        padding: 10px;
+    p{
+        margin: 10px;
+        padding: 10px; 
+    }    
+    }
+}
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    label{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        textarea{
+            resize: vertical;
+        } 
+    }
+}
+.formulario input[type="submit"] {
+    background-color: chocolate;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulario input[type="submit"]:hover {
+    background-color: chocolate;
+}
+//End Index
+
+//PAGINA EMPRESA
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(14, 10, 7);
+    text-align:center;    
+    width: 100%;
+    height: 480px;
+    background-image: url("../img/empresa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.contenidoEmpresa{
+    background-color: rgb(145, 143, 143);
+    margin: 50px;
+    padding: 35px;
+    text-align: center;
+        h3{
+            margin: 15px;
+            color: chocolate; 
+            font-size: 25px;
+    }
+}
+
+.foto-aberturas{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.datos{
+    background-color: rgb(145, 143, 143);
+    margin: 50px;
+    padding: 35px;
+    text-align: center;
+    font-size: larger;
+    h3{
+        margin: 15px;
+        color: chocolate;  
+    }
+}
+//End EMPRESA
+
+//INIT PAGINA DE PRODUCTOS
+
+.hero-producto{
+    background-image: url(../img/producto-casa.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: chocolate;
+        font-size: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic  
+    }
+}
+.nuestro-producto{
+    display: flex;
+    flex-direction: column;
+    text-align: center; background-color: orange;
+    color: white; 
+    h2{
+        margin: 15px; 
+        color: black; 
+        font-size: 100px;
+    p{
+        padding: 20px;
+        font-size: 20px;  
+    } 
+    }   
+}
+//END SECTION
+
+//INIT SECTION
+.ventajas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto; 
+    max-width: 1300px;
+    padding: 0 20px;
+    .div{
+        display:flex; 
+        justify-content: center;
+        align-items:center;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 20px;
+        height: 200px;
+        width: 200px;
+        overflow:hidden;
+    }   
+}
+.section-ventajas-titulo{
+    text-align: center;
+    margin: 15px;
+}
+// END SECTION
+
+// INIT SECTION
+
+.lineas h2{
+    margin: 20px;
+}
+.modena{
+    margin: 100px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.modena-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.a30{
+    margin: 100px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    img{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+//END SECTION
+
+//INIT PAGINA EMPRESA
+.presentacion-mueble{
+    display: flex;
+    flex-direction: column; 
+    margin: 100px; 
+    background-color:rgb(150, 148, 148); 
+    h2{
+        color: chocolate;
+        font-size: 100px; 
+    } 
+}
+
+.info-parrafo p{
+    padding: 15px;
+    color: white;
+}
+// END SECTION
+
+//INIT SECTION
+.lista-detalles{
+    background-color: gold;
+    margin: 100px;
+    margin-top: 20px; 
+    padding: 20px 0;
+    h2{
+        color: chocolate;
+        font-size: 50px;
+    }  
+}
+
+.detalles{
+    display: flex;
+    justify-content: center;
+}
+
+//END SECTION
+
+

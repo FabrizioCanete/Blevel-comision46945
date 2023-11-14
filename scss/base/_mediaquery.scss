@@ -1,0 +1,85 @@
+@media screen and (max-width:1076px){
+    .navbar-nav{
+        margin:5px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .grid-container{
+        width: 100%;
+        height: auto;
+        margin: 10px;        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        }        
+    }
+@media screen and (max-width:800px){
+        .titulo-formulario{         
+            width: 100%;
+            margin: 0;
+        }
+    }
+@media screen and (max-width:770px){
+        .img-container{
+            flex-wrap: wrap;
+        }
+    }  
+
+@media screen and (max-width:570px){
+        .grid-container{       
+            grid-template-columns:1fr;
+            grid-template-rows:1fr;
+            gap: 15px;
+            }  
+    }
+@media screen and (max-width:570px){
+        .testimonial-container{ 
+            flex-direction:column; 
+        }                           
+    }  
+@media screen and (max-width: 490px){
+    .nuestro-producto{
+        height: 100%;
+        margin: auto; 
+        padding: 20px;
+        font-size: auto;
+    }
+}
+    
+@media screen and (max-width:470px){
+        .hero{         
+            height: 500px;
+            margin: auto;
+          }   
+
+        .heroh1{ 
+            font-size: 50px;           
+            margin: 20px;  
+        }
+        
+        .hero-producto{
+            height: 500px;
+            margin: auto;
+            h2{
+                margin: auto;
+                font-size: 50px; 
+            p{
+                padding: 20px;
+                font-size: 20px;
+            }
+            }
+        }
+        .ventajas{
+           justify-content: center;
+           align-items: center;           
+        }
+    }
+
+@media screen and (max-width:350px){
+        .titulo-formulario{
+            padding: auto;
+        }
+    }
+
