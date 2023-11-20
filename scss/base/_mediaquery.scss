@@ -5,6 +5,17 @@
     }
 }
 
+@media screen and (max-width:1010px){
+    .foto-aberturas{
+        display: grid;
+        grid-template-columns: max-content;
+        width: 100%;
+        &-img{
+            width: 100%;
+        }         
+    }
+}
+
 @media screen and (max-width:990px){
     .grid-container{
         width: 100%;
@@ -27,13 +38,38 @@
         }
     }  
 
+@media screen and (max-width:700px){
+    .presentacion-mueble{ 
+        margin: 20px; 
+        padding: 15px;
+    }
+}
+@media screen and (max-width:690px){
+    .detalles{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
+
+
 @media screen and (max-width:570px){
         .grid-container{       
             grid-template-columns:1fr;
             grid-template-rows:1fr;
             gap: 15px;
-            }  
+            } 
     }
+@media screen and (max-width:570px){
+    .presentacion-mueble{ 
+        margin: 0; 
+        padding: 15px;
+        h2{
+            font-size: 50px;
+        }
+    }
+}
+
 @media screen and (max-width:570px){
         .testimonial-container{ 
             flex-direction:column; 
